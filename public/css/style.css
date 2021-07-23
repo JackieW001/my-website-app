@@ -937,13 +937,23 @@ body.offcanvas {
   width: 100%;
   display: block;
   margin-bottom: 30px; }
+  /* .project h3 {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    display: block;
+    position: relative;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  } */
   .project .desc {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background: rgb(0, 0, 0, 0.5);
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -973,6 +983,7 @@ body.offcanvas {
           font-size: 16px;
           color: #333333; }
     .project .desc h3 {
+      
       font-family: "Quicksand", Arial, sans-serif;
       font-size: 16px;
       font-weight: 500;
@@ -1004,6 +1015,9 @@ body.offcanvas {
       .project .desc span a {
         color: #000; }
     @media screen and (max-width: 768px) {
+      /* .project h3{
+        opacity:1;
+      } */
       .project .desc {
         opacity: 1;
         background: rgba(0, 0, 0, 0.4); }
